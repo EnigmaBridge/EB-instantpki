@@ -132,6 +132,13 @@ a:hover{text-decoration: none; cursor:pointer;}
 }
 
 
+/* Background Effects */
+
+.b-parallax{
+	background-attachment:fixed;
+}
+
+
 /* Dark theme */
 
 .d-bloc{
@@ -251,10 +258,13 @@ a:hover{text-decoration: none; cursor:pointer;}
 #bloc-3 p{
 	font-size: 16px;
 }
-#bloc-4 h3{
+#bloc-4 p{
+	font-size: 16px;
+}
+#bloc-5 h3{
 	font-size: 22px;
 }
-#bloc-4 p{
+#bloc-5 p{
 	font-size: 16px;
 }
 #gestartedpki h5{
@@ -268,45 +278,45 @@ a:hover{text-decoration: none; cursor:pointer;}
 	font-size: 14px;
 	line-height: 20px;
 }
-#bloc-9 p{
+#bloc-10 p{
 	font-size: 16.000000953674316px;
 }
-#bloc-10 p{
+#bloc-11 p{
 	font-size: 20px;
 }
-#bloc-12 p{
+#bloc-13 p{
 	font-size: 16.000000953674316px;
 }
-#bloc-13 h2{
+#bloc-14 h2{
 	font-size: 32px;
 	line-height: 24px;
 }
-#bloc-13 h3{
+#bloc-14 h3{
 	font-size: 22px;
 }
-#bloc-13 p{
+#bloc-14 p{
 	font-size: 16px;
 }
-#bloc-14 p{
+#bloc-15 p{
 	font-size: 16.000000953674316px;
-}
-#bloc-14 h3{
-	font-size: 18px;
 }
 #bloc-15 h3{
 	font-size: 18px;
+}
+#bloc-16 h3{
+	font-size: 18px;
 	line-height: 26px;
 }
-#bloc-16 h1{
+#bloc-17 h1{
 	font-size: 40px;
-}
-#bloc-16 p{
-	font-size: 18px;
 }
 #bloc-17 p{
 	font-size: 18px;
 }
-#bloc-19 p{
+#bloc-18 p{
+	font-size: 18px;
+}
+#bloc-20 p{
 	font-size: 18.000000953674316px;
 }
 #form-contact-us h4{
@@ -315,23 +325,23 @@ a:hover{text-decoration: none; cursor:pointer;}
 #team p{
 	font-size: 17.000000953674316px;
 }
-#bloc-23 h3{
-	font-size: 17px;
-}
-#bloc-23 p{
-	line-height: 20px;
-	font-size: 13px;
-}
 #bloc-24 h3{
 	font-size: 17px;
 }
 #bloc-24 p{
-	font-size: 13.000000953674316px;
+	line-height: 20px;
+	font-size: 13px;
 }
-#bloc-26 h3{
+#bloc-25 h3{
 	font-size: 17px;
 }
-#bloc-26 a{
+#bloc-25 p{
+	font-size: 13.000000953674316px;
+}
+#bloc-27 h3{
+	font-size: 17px;
+}
+#bloc-27 a{
 	font-size: 17px;
 }
 
@@ -467,6 +477,10 @@ nav .caret{
 .mg-clear{
 	margin:0;
 }
+.mg-sm{
+	margin-top:10px;
+	margin-bottom:5px;
+}
 .mg-md{
 	margin-top:10px;
 	margin-bottom:20px;
@@ -547,6 +561,16 @@ button{
 	min-width: 162px;
 }
 
+/*  Rounded Image */
+.img-rd{
+	border-radius:6px;
+}
+.img-rd-md{
+	border-radius:20px;
+}
+.img-rd-lg{
+	border-radius:34px;
+}
 
 /* = Text & Icon Styles
 -------------------------------------------------------------- */
@@ -750,6 +774,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .bgc-white{
 	background-color:#ffffff;
 }
+.bgc-anti-flash-white{
+	background-color:#F0F0F0;
+}
 .bgc-rich-electric-blue{
 	background-color:#00A7D6;
 }
@@ -824,6 +851,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .bg-bigstock-Businessman-with-illuminated-l-64002370-min{
 	background-image:url("img/bigstock-Businessman-with-illuminated-l-64002370-min.jpg");
+}
+.bg-KC-background{
+	background-image:url("img/KC_background.png");
 }
 
 
